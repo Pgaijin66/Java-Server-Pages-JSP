@@ -108,7 +108,7 @@
 
 
 
- <h4 class="text-center">&copy <b>Verisk Information Technologies</b></h4>
+ <h4 class="text-center">&copy <b>Prabesh Thapa</b></h4>
 
 
 
