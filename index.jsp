@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+
 <html>
 <head>
 	<title>Vmovies</title>
@@ -14,32 +15,37 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 <body>
-		
+
 		<div class="modal-dialog">
 			<div class="model-content">
 				<div class="modal-header">
 					<h1 class="text-center">Vmovies</h1>
 				</div>
 				<div class="model-body">
-					<form class="col-md-12 center-block" action="admin.jsp" method="POST">
+					<form class="col-md-12 center-block" action="Logincheck.jsp" method="POST">
 						<div class="form-group">
-							<input type="text" class="form-control input-lg" placeholder="Username" name="username"/>
+							<input type="text" class="form-control input-lg" placeholder="I-Number" name="inumber" value=""/>
 						</div>
 						<div class="form-group">
-							<input type="password" class="form-control input-lg" placeholder="Password" name="password"/>
+							<input type="password" class="form-control input-lg" placeholder="Password" name="password" value=""/>
 						</div>
 						<div class="form-group">
 							<input type="submit" class="btn btn-block btn-lg btn-primary" value="Login" name="login_button"/>
-							<span class="pull-left"><a href="#"><h4>Register</h4></a></span>
-							<span class="pull-right"><a href="#"><h4>Forgot password ?</h4></a></span>
+
+							
+							<div class="modal-dialog">
+							 
+					        </div>
+							<span class="pull-left"><a href="/web/register.jsp"><h4>Register</h4></a></span>
+							<span class="pull-right"><a href="/web/passwordresset.jsp"><h4>Forgot password ?</h4></a></span>
 						</div>
 					</form>
 
-					<div class="modal-footer">
+					<!-- <div class="modal-footer">
 						<div class="col-md-12">
 							<button class="btn btn-danger">Cancel</button>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 
@@ -47,7 +53,6 @@
 
 
 
-%>
 
 </body>
 </html>

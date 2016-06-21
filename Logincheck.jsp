@@ -12,11 +12,15 @@
         </head> 
         <body> 
             <%
-            String user = request.getParameter("username");
+            String user = request.getParameter("inumber");
 			String pass = request.getParameter("password");
 
-            out.println(user);
-            out.println(pass);
+            if (user.equals("i82671") && pass.equals("admin")) {
+                response.sendRedirect("admin.jsp");
+            }
+            else{
+                response.sendRedirect("index.jsp");
+             }
            
 
 

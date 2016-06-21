@@ -85,9 +85,11 @@
 		out.print("Your IP address is : ");
 
 		%>
+
 		<h4><b><%
 		out.print(request.getRemoteAddr());
 		%></b></h4>
+		<span class="pull-left"><a href="/web/upload.jsp"><h4>Upload Movie</h4></a></span>
 			
 	
 		
@@ -96,6 +98,7 @@
 <div class="modal-footer">
 	<div clas="col-xs-12">
 	<form action="/web/index.jsp" method="POST">
+
 		<button class="btn btn-danger" >Log out</button>
 		</form>
 	</div>
@@ -105,7 +108,7 @@
 
 
 
- <h4 class="text-center">&copy <b>Prabesh Thapa</b></h4>
+ <h4 class="text-center">&copy <b>Verisk Information Technologies</b></h4>
 
 
 
